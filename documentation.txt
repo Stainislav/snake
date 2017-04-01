@@ -1,0 +1,29 @@
+Functions:
+
+    main(stdscr) - contains a general logic of the programm
+        
+    game_over(scores) - tells a user that game is over and prints scores
+        
+    score_amount(scores) - counts scores
+
+    count(item) - counts a number of item in a list
+
+Classes:
+
+    Figure - draws a figure
+        
+    Point - creates point
+        
+    Walls - creates walls
+        
+    Horizontal_line(Figure) - creates horizontal line
+        
+    Vertical_line(Figure) - creates vertical line
+        
+    AutoNumber(Enum) - for auto-numbering
+
+    Direction(AutoNumber) - movement direction
+
+    Snake(Figure) - creates a snake
+        
+    Food_creator - creates a food

@@ -1,0 +1,26 @@
+# Initialize the curses library 
+
+# Main function:
+
+    # Set curses settings.
+    # Create and draw a frame.
+    # Create a point.
+    # Create and draw a snake based on the point.
+    # Create and draw a food.
+
+    # Run an infinite loop:
+    
+        # Get and process a button click.
+        
+        # If the snake is collided with a wall or her tail:
+            # The game is over.
+            # Break the loop.
+        
+        # If the snake is collided food:
+            # Snake eats the food and becoming one point bigger.
+        
+        # If the snake is not collided with anything:
+            # Snake keeps moving forward.
+        
+    # Back to the default terminal settings.
+    # Deinitialize the curses library.
